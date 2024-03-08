@@ -44,7 +44,9 @@ Task Management System
 
 ## Project Description
 
-This Spring Boot project effectively manages and keeps track of tasks within a team or company. The components of the project are organized into different packages, including services, controllers, models, and repositories. The three main models represent the database entities: Users, Tasks, and TaskHistory. Following the MVC Architecture ensures a structured and organized approach to handling operations, promoting modularity and maintainability.
+This Spring Boot project effectively manages and keeps track of tasks within a team or company. The components of the project are organized into different packages, including services, controllers, models, and repositories. The three main models represent the database entities: Users, Tasks, and TaskHistory.
+
+Following the MVC Architecture ensures a structured and organized approach to handling operations, promoting modularity and maintainability.
 
 ### Workflow
 
@@ -83,9 +85,8 @@ This Spring Boot project effectively manages and keeps track of tasks within a t
 3. Created Service classes for each model to be called by the Controllers to implement the business logic behind CRUD operations and the additional 5 methods (2 for users entity, 2 for task entity, and 1 for taskshistory).
 4. Created repositories for each model to handle database queries and interact with it (controllers, services, repositories, logging aspect are stored in different packages).
 5. Established a connection between the program and the database to interact with it and create models from the database directly.
-6. Added the necessary dependencies (Spring Boot, Swagger 2, Swagger UI, persistence, mysql-connector-j, spring AOP, and security).
-7. Added a logging aspect for security. (Username and password are in the application.properties [Username: TaskManager || password: 0000]).
+6. Added the necessary dependencies. (Spring Boot, Swagger 2, Swagger UI, persistence, mysql-connector-j, spring AOP, and security).
+7. Added a logging aspect for security.
 8. Added 2 triggers in the database to handle automatically added records in the taskshistory table.
-9. Exported the database.
 
 **Note:** Use Swagger UI to test your functions.
