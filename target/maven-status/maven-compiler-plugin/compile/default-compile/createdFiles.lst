@@ -1,0 +1,14 @@
+manage\taskmanagement\controller\TasksController.class
+manage\taskmanagement\aspect\LoggingAspect.class
+manage\taskmanagement\repository\UsersRepository.class
+manage\taskmanagement\model\Taskshistory.class
+manage\taskmanagement\model\Users.class
+manage\taskmanagement\controller\TaskHistoryController.class
+manage\taskmanagement\service\UsersService.class
+manage\taskmanagement\repository\TasksRepository.class
+manage\taskmanagement\controller\UsersController.class
+manage\taskmanagement\service\TaskHistoryService.class
+manage\taskmanagement\model\Tasks.class
+manage\taskmanagement\repository\TaskHistoryRepository.class
+manage\taskmanagement\TaskmanagementApplication.class
+manage\taskmanagement\service\TasksService.class
