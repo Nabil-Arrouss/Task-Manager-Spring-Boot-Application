@@ -77,6 +77,7 @@ Following the MVC Architecture ensures a structured and organized approach to ha
 - Spring AOP
 - Security
 - PHPMyAdmin (for database management)
+- Maven for management
 
 ## Application Implementation Steps
 
